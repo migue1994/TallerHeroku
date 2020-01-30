@@ -65,3 +65,7 @@ Esto le generará una documentación, que se ubica por defecto en `target\site\a
 # Link de heroku
 
 [WebApp](https://whispering-lake-46795.herokuapp.com/inputdata)
+
+# Badge CircleCI
+
+[![CircleCI](https://circleci.com/gh/migue1994/TallerHeroku.svg?style=svg)](https://circleci.com/gh/migue1994/TallerHeroku)
