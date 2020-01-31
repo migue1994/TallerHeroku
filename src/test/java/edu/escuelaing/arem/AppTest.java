@@ -1,7 +1,6 @@
 package edu.escuelaing.arem;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
@@ -13,12 +12,6 @@ import edu.escuelaing.arem.designprimer.Entities.Operations;
 public class AppTest 
 {
     Operations o = new Operations();
-
-    @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
-    }
 
     @Test
     public void calcularMedia(){

@@ -59,15 +59,16 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.1.1</version>
+                <configuration>
+                <show>public</show>
+                <outputDirectory>src\main</outputDirectory>
+                </configuration>
+            </plugin>
         </plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-javadoc-plugin</artifactId>
-          <version>3.1.1</version>
-          <configuration>
-            <show>public</show>
-            <outputDirectory>src\main</outputDirectory>
-          </configuration>
-      </plugin>
+
     </build>
 </project>
